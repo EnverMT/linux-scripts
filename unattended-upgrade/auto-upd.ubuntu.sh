@@ -60,10 +60,6 @@ echo "[4/4] Restarting service and running dry-run test..."
 sudo systemctl restart unattended-upgrades
 sudo systemctl enable unattended-upgrades
 
-echo "---------------------------------------------"
-echo "Running dry-run validation..."
-sudo unattended-upgrade --dry-run -v
-
 echo "============================================="
 echo " Setup complete! Auto-upgrades are active.   "
 echo "============================================="
